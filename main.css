@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+h2 a {
+    color: #ffff;  
+}
+h2 a:hover {
+    color: white;
+}
+
+header {
+    background-color:purple;
+    color: white;
+    text-align: left;
+    padding: 1em 0;
+   
+   
+}
+header h1 {
+    font-style:'Arial', sans-serif;;
+    font-size: 50x;
+    left:20px;
+    transform: translateX(10px); 
+}
+header h2{
+    text-align: right;
+    font-size: 25px;
+    padding-left: 10px;
+    position: relative;
+    right:20px; 
+    transform: translateX(-10px); 
+}
+
+.container {
+    display: flex;
+    background-color:#c19ee9 ;
+}
+
+#me img {
+    width:350px;
+    height: 500px;
+    margin-left:0%;   
+    border-radius: 40%;
+    float: left;
+    margin-right: 20px;
+   
+} 
+#me h1{
+    text-align: left;
+    font-size: 45px;
+}
+
+#me p {
+    overflow: hidden; 
+    font-size: 32px;
+    
+  }
+
+.sidebar {
+    width: 250px;
+    background-color:lavender;
+    padding: 15px;
+
+}
+
+.sidebar ul {
+    list-style-type:none; 
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+.sidebar ul a:hover {
+    color:gray;
+    
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    color: black;
+    
+}
+
+.sidebar ul li {
+    margin: 5px 0;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-icons img {
+    width: 40px; 
+    height: auto;
+}
+footer {
+    background-color:purple;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

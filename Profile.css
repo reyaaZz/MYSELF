@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.resume-container .profile-picture {
+    width: 250px;
+    height: 290px;
+    border-radius: 0%;
+}
+.resume-details p {
+    font-size: 20px;
+    color: darkmagenta;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-icons img {
+    width: 30px; 
+    height: auto;
+}
+
+footer {
+     background-color:purple;
+     color:white;
+     text-align: center;
+     padding: 10px 0;
+     position: relative;
+     bottom: 0;
+    width: 100%;
+} 
